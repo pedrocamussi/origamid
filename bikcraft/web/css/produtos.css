@@ -1,0 +1,15 @@
+.interna_produtos{
+    background: url("../img/bg-produtos.jpg")no-repeat center;
+    background-size: cover;
+}
+.produto_item{
+    padding-top: 60px;
+}
+.produto_icone{
+    background: #000;
+    /* padding:; */
+}
+.produto_icone img{
+    margin: 0 auto;
+    
+}
