@@ -1,6 +1,6 @@
 # Cursos Origamid
 
-Acompanhamento de conclusão dos cursos da plataforma origamid.com com o intuito de melhorar minhas habilidades como design e front end buscando a melhoria contínua.
+Acompanhamento de conclusão dos cursos da plataforma origamid.com com o intuito de melhorar minhas habilidades como designer e front-end buscando a melhoria contínua.
 
 ## Task List 
 - [ ] | Web Design Completo (HTML5, CSS3) - 22 horas
