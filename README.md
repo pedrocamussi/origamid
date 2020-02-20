@@ -3,7 +3,7 @@
 Acompanhamento de conclusão dos cursos da plataforma origamid.com com o intuito de melhorar minhas habilidades como designer e front-end buscando a melhoria contínua.
 
 ## Task List 
-- [ ] | Web Design Completo (HTML5, CSS3) - 22 horas
+- [X] | Web Design Completo (HTML5, CSS3) - 22 horas
 - [ ] | WordPress como CMS - 9 horas
 - [ ] | UI Design Avançado - 15 horas
 - [ ] | CSS Avançado Posicionamento - 9 horas
