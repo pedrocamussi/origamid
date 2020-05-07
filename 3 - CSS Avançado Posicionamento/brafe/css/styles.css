@@ -127,6 +127,7 @@ a.menu-logo{
     margin: 20px auto;
     max-width: 460px;
 }
+<<<<<<< HEAD
 /* Produtos */
 .produtos{
     background: #e7e4d8;
@@ -135,21 +136,43 @@ a.menu-logo{
     border-bottom: 3px solid #d6d3c8;
 }
 
+=======
+
+/* Produtos */
+
+.produtos{
+    background: #e7e4d8;
+    padding: 60px 0;
+    border-top: 3px solid #d6d3c8
+    border-bottom: 3px solid #d6d3c8
+}
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
 .produtos-container{
     max-width: 960px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 .produtos-container::before, .produtos-container::after{
+=======
+.produtos-container::after, .produtos-container::before{
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
     content: '';
     display: table;
     clear: both;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
 .produtos-item{
     width: 300px;
     float: left;
     margin: 0 10px 20px 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
 .produtos-item h2{
     text-align: center;
     font-size: 2.25em;
@@ -161,6 +184,7 @@ a.menu-logo{
     display: block;
     width: 100px;
     height: 100px;
+<<<<<<< HEAD
     background: currentColor;
     border-radius: 50%;
     margin: 20px auto;
@@ -177,6 +201,13 @@ h2.produtos-carioca::before{
 
 h2.produtos-mineiro::before{
     color: #d7a54d;
+=======
+    background: blue;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 5px solid #e7e4d8;
+    box-shadow: 0 0 0 5px pink, 0 0 0 10px green;
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
 }
 
 .produtos-item p{
@@ -184,6 +215,7 @@ h2.produtos-mineiro::before{
     line-height: 1.4em;
 }
 
+<<<<<<< HEAD
 .produtos-btn{
     width: 180px;
     border: 3px solid;
@@ -242,3 +274,5 @@ h2.produtos-mineiro::before{
     color: #252525;
     padding: 10px 20px;
 }
+=======
+>>>>>>> 13adc82ba6a9e8e6a651ca183cc3d36b0a8e1c93
