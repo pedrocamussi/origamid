@@ -10,7 +10,7 @@ Acompanhamento de conclusão dos cursos da plataforma origamid.com com o intuito
 - [ ] | CSS Grid Layout - 5 horas
 - [ ] | JavaScript Completo ES6 - 37 horas
 - [ ] | Tipografia Avançada - 8 horas
-- [ ] | CSS Flexbox - 3 horas
+- [X] | CSS Flexbox - 3 horas
 - [ ] | CSS com SASS - 6 horas
 - [ ] | UX Design Heurísticas - 8 horas
 - [ ] | Adobe XD - 3 horas
