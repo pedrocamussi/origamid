@@ -1,22 +1,8 @@
-# Cursos Origamid
+# Origamid Course <code><img width="40px" src="https://avatars1.githubusercontent.com/u/1330847?s=460&v=4"></code>
+This repository contains projects made at [Origamid Courses](https://www.origamid.com/). 
 
-Acompanhamento de conclusão dos cursos da plataforma origamid.com com o intuito de melhorar minhas habilidades como designer e front-end buscando a melhoria contínua.
+## Objective
+The main objective with these courses is to improve my Front End Developement skills.
 
-## Task List 
-- [X] | Web Design Completo (HTML5, CSS3) - 22 horas
-- [ ] | WordPress como CMS - 9 horas
-- [ ] | UI Design Avançado - 15 horas
-- [ ] | CSS Avançado Posicionamento - 9 horas
-- [ ] | CSS Grid Layout - 5 horas
-- [ ] | JavaScript Completo ES6 - 37 horas
-- [ ] | Tipografia Avançada - 8 horas
-- [X] | CSS Flexbox - 3 horas
-- [ ] | CSS com SASS - 6 horas
-- [ ] | UX Design Heurísticas - 8 horas
-- [ ] | Adobe XD - 3 horas
-- [ ] | Vue.js Completo - 22 horas
-- [ ] | WordPress REST API - 2 horas
-- [ ] | WooCommerce Como CMS - 10 horas 
-- [ ] | Bootstrap4 - 5 horas 
-- [ ] | Automação Front End com NPM - 4 horas
-- [ ] | JavaScript e Jquery - 9 horas
+## How to run:
+Each folder have a README with the instruction.
