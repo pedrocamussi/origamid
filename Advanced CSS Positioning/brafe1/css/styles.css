@@ -1,40 +1,44 @@
+/* Breakpoints 
+960px
+740px
+
+*/
+
+
+
 /* Reset */
-
-body, h1, h2, h3, p, ul{
+*{
+    margin: 0;
     padding: 0;
-    margin: 0px;
 }
-
 body{
     font-family: Georgia, serif;
     color: #252525;
 }
 
-*{
-    box-sizing: border-box;
-}
-
 /* Menu */
-
 .menu{
     background: #252525;
     padding: 20px 0;
 }
+
 .menu-container{
     max-width: 960px;
     margin: 0 auto;
 }
+
 .menu-container::after, .menu-container::before{
     content: '';
     display: table;
     clear: both;
 }
 
-a.menu-logo{
+.menu-logo{
     display: block;
     float: left;
     margin-left: 10px;
 }
+
 .menu-nav{
     float: right;
     margin-right: 10px;
@@ -43,36 +47,47 @@ a.menu-logo{
 .menu-nav li{
     display: inline-block;
 }
+
 .menu-nav a{
     display: block;
-    padding: 10px;    /* Aumentando a área de contato do botão */
+    padding: 10px;
     text-decoration: none;
     color: #fff;
     font-size: 1.125em;
+}
+/* @media only screen and (max-width: 739px) Por exemplo imprimir uma página mas manter o layout WEB e não Mobile */
+@media only screen and (max-width: 739px){
+    .menu-nav{
+        float: none;
+        clear: both;
+    }
+    
 }
 
 /* Intro */
 
 .intro{
-    background: url('../img/bg-intro.jpg')no-repeat center center;
+    background: url('/img/bg-intro.jpg') no-repeat center center;
     background-size: cover;
     padding: 150px 0;
     text-align: center;
     color: #fff;
-}
+} 
+
 .intro h1{
     text-transform: uppercase;
     font-size: 3em;
-
 }
+
 .intro h1::after{
-    content:''; 
+    content: '';
     display: block;
     width: 20px;
     height: 4px;
     background: #fff;
     margin: 10px auto;
 }
+
 .intro p{
     font-style: italic;
     font-size: 1.125em;
@@ -87,7 +102,9 @@ a.menu-logo{
 .sobre-container{
     max-width: 960px;
     margin: 0 auto;
+
 }
+
 .sobre-container::after, .sobre-container::before{
     content: '';
     display: table;
@@ -105,14 +122,16 @@ a.menu-logo{
     float: left;
     margin: 0 10px;
 }
+
 .sobre-item img{
     display: block;
     max-width: 100%;
 }
+
 .sobre-item h3{
     font-size: 2.25em;
     line-height: 1em;
-    background: #252525;
+    background-color: #252525;
     width: 220px;
     color: #fff;
     font-style: italic;
@@ -120,46 +139,43 @@ a.menu-logo{
     text-align: center;
     padding: 5px 0 10px 0;
     top: -25px;
-    position: relative; 
+    position: relative;
 }
 
-.sobre > p {
+.sobre > p{ /* P diretamente ligado */
     font-size: 1.125em;
     line-height: 1.4em;
     font-style: italic;
     text-align: center;
     margin: 20px auto;
-    max-width: 460px;
+    max-width: 460px
 }
-/* Produtos */
-.produtos{
-    background: #e7e4d8;
-    padding: 60px 0;
-    border-top: 3px solid #d6d3c8;
-    border-bottom: 3px solid #d6d3c8;
-}
+
 /* Produtos */
 
 .produtos{
     background: #e7e4d8;
     padding: 60px 0;
-    border-top: 3px solid #d6d3c8
-    border-bottom: 3px solid #d6d3c8
+    border-top:  3px solid #d6d3c8;
 }
+
 .produtos-container{
     max-width: 960px;
     margin: 0 auto;
 }
-.produtos-container::before, .produtos-container::after{
+
+.produtos-container::after, .produtos-container::before{
     content: '';
     display: table;
     clear: both;
 }
+
 .produtos-item{
     width: 300px;
     float: left;
     margin: 0 10px 20px 10px;
 }
+
 .produtos-item h2{
     text-align: center;
     font-size: 2.25em;
@@ -174,15 +190,15 @@ a.menu-logo{
     background: currentColor;
     border-radius: 50%;
     margin: 20px auto;
-    border: 5px solid #e7e4d8;
-    box-shadow: 0 0 0 10px currentColor;;
+    border: 5px solid #e7e4e7;
+    box-shadow: 0 0 0 10px currentColor;
 }
 h2.produtos-paulista::before{
     color: #492901;
 }
 
 h2.produtos-carioca::before{
-    color: #c17139;
+    color: #c17139
 }
 
 h2.produtos-mineiro::before{
@@ -205,45 +221,56 @@ h2.produtos-mineiro::before{
     text-transform: uppercase;
     text-align: center;
     padding: 15px 0;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0 auto ;
 }
 
 /* Locais */
+
 .locais{
     max-width: 960px;
     margin: 0 auto;
     padding: 20px 0;
 }
+
 .locais-item{
     clear: both;
     margin: 60px auto;
+    /* overflow: hidden;  Outra forma de se utilizar cleafix 
+    porém usável apenas no caso de não ter outros itens flutuando, e sim dentro de "locais item"
+    */
 }
-.locais-item::after,.locais-item::before{
+
+.locais-item::after, .locais-item::before{
     content: '';
     display: table;
     clear: both;
-}
+} 
+
 .locais-item img{
     width: 460px;
     display: block;
     float: left;
     margin: 0 10px;
 }
+
 .locais-item > div{
     width: 460px;
     float: left;
     margin: 0 10px;
 }
+
 .locais-item h2{
     font-size: 2.25em;
     margin-bottom: 20px;
 }
+
 .locais-item p{
     font-size: 1.125em;
     line-height: 1.4em;
     max-width: 320px;
     margin-bottom: 40px;
 }
+
 .locais-item a{
     font-size: 1.125em;
     text-transform: uppercase;
@@ -262,10 +289,10 @@ h2.produtos-mineiro::before{
 
 .assine-container{
     max-width: 960px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
-.assine-container::after,.assine-container::before{
+.assine-container::after, .assine-container::before{
     content: '';
     display: table;
     clear: both;
@@ -280,7 +307,6 @@ h2.produtos-mineiro::before{
 .assine-info h2{
     font-size: 2.25em;
 }
-
 .assine-info p{
     font-size: 1.5em;
     font-style: italic;
@@ -288,7 +314,7 @@ h2.produtos-mineiro::before{
 
 .assine form{
     width: 460px;
-    margin:10px 10px 0 10px;
+    margin: 10px 10px 0 10px;
     float: left;
 }
 
@@ -297,25 +323,26 @@ h2.produtos-mineiro::before{
 }
 
 .assine input{
+    box-sizing: border-box;
     width: 320px;
     border: 3px solid #252525;
     background: none;
     font-size: 1.5em;
     font-style: italic;
-    font-family:Georgia, serif ;
+    font-family: Georgia, serif;
     padding: 10px;
     float: left;
 }
 
 .assine button{
     background: #252525;
-    border: none;
     font-family: Georgia, serif;
     text-transform: uppercase;
     font-size: 1.5em;
     width: 140px;
     padding: 13px 0;
     color: #fff;
+    border: none;
     cursor: pointer;
 }
 
@@ -323,7 +350,7 @@ h2.produtos-mineiro::before{
 
 .footer{
     background: #d6d3c8;
-    padding: 40px 0;
+    padding: 40px 0 ;
 }
 
 .footer-container{
@@ -343,11 +370,10 @@ h2.produtos-mineiro::before{
     font-size: 1.125em;
     line-height: 1.4em;
 }
+
 .footer img{
     float: right;
     margin: 0 10px;
     display: block;
 }
-
-
 
